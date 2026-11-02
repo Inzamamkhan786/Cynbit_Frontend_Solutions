@@ -1,0 +1,25 @@
+{
+  "name": "cynbit-fullstack-solution",
+  "version": "1.0.0",
+  "description": "Cynbit Technologies - Smart Project Discovery System & Admin CRM",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "node dev-runner.js",
+    "start": "cd server && npm start",
+    "build": "cd client && npm run build",
+    "test": "cd server && npm test",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "cynbit",
+    "fullstack",
+    "react",
+    "express",
+    "lead-qualification",
+    "discovery-wizard"
+  ],
+  "author": "Cynbit Technologies Assessment Solution",
+  "license": "ISC"
+}
